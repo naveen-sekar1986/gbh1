@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"></html>
+
+<html>
+    <head>
+        <!-- Basic Page Needs setup -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>GBH - Green Bricks Housing</title>
+
+    <meta name="author" content="themesflat.com">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/color1.css" id="colors">
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/icon/favicon.jpg">
+    <link rel="apple-touch-icon-precomposed" href="assets/icon/apple-touch-icon-158-precomposed.jpg">
+
+    <!--[if lt IE 9]>
+        <script src="javascript/html5shiv.js"></script>
+        <script src="javascript/respond.min.js"></script>
+    <![endif]-->
+</head>
+        <body class="header-fixed page no-sidebar header-style-2 topbar-style-2 ">
+
+            <div id="page" class="clearfix">
+                <!-- Header Wrap -->
+                <div id="site-header-wrap">
+                    <!-- Header -->
+                    <header id="site-header">
+                        <div id="site-header-inner" class="container">
+                            <div class="wrap-inner clearfix">
+                                <div id="site-logo" class="clearfix">
+                                    <div id="site-log-inner">
+                                        <a href="home.html" rel="home" class="main-logo">
+                                            <img src="assets/img/logo-white-small.png" alt="GBH" width="186" height="39"
+                                                data-retina="assets/img/logo-small@2x.png" data-width="186"
+                                                data-height="39">
+                                        </a>
+                                    </div>
+                                </div><!-- /#site-logo -->
+    
+                                <div class="mobile-button">
+                                    <span></span>
+                                </div><!-- /.mobile-button -->
+    
+                                <nav id="main-nav" class="main-nav">
+                                    <ul id="menu-primary-menu" class="menu">
+                                        <li class="menu-item menu-item-has-children current-menu-item">
+                                            <a href="home.html">HOME</a>
+    
+                                        </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="page-about.html">ABOUT US </a>
+                                            <ul class="sub-menu">
+                                                <!-- <li class="menu-item"><a href="page-about.html">ABOUT US</a></li> -->
+    
+                                                <!-- <li class="menu-item"><a href="page-about-team.html">ABOUT TEAM</a></li> -->
+    
+                                        </li>
+                                    </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="page-services.html">SERVICES</a>
+    
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="page-projects.html">PROJECTS</a>
+    
+    
+    
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="page-packages.html">PACKAGES</a>
+                                                                        </li>
+    
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="page-contact.html">CONTACT</a>
+    
+                                    </li>
+                                    </ul>
+                                </nav><!-- /#main-nav -->
+    
+    
+    
+                                <form role="search" method="get" class="header-search-form" action="#">
+                                    <label class="screen-reader-text">Search for:</label>
+                                    <input type="text" value="" name="s" class="header-search-field"
+                                        placeholder="Search...">
+                                    <button type="submit" class="header-search-submit" title="Search"><i
+                                            class="fa fa-search"></i></button>
+                                </form>
+                            </div><!-- /#header-search -->
+                        </div><!-- /.wrap-inner -->
+                </div><!-- /#site-header-inner -->
+                </header><!-- /#site-header -->
+            </div><!-- #site-header-wrap -->
+    
+            <h1 >Online Quotation</h1>
+
+            <style>
+                table{
+                  border:1px solid black;
+                  
+                }
+
+                table {
+                 width: 50%;
+                }
+                </style>
+                <body>
+                
+
+                
+                <table style="width:100%">
+                  <tr>
+                    <td>S.NO</td>
+                    <td>WORK</td>
+                    <td>AREA`</td>
+                    <td>UNIT</td>
+                    <td>RATE</td>
+                    <td>COST</td>
+                  </tr>
+                  <tr>
+                      <td>1</td>
+                      <td>Premium Construction Package:@2250/Sqft</td>
+                      <td><input type="text" id="box1" oninput="calculate()" placeholder="Area in Sqft"></td>
+                      <td>Sqft</td>
+                      <td>Rs:2250</td>
+                      <td><input type="text" id="box2" placeholder="Cost"></td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>Size of RCC Water Sump</td>
+                    <td>
+                        <input type="text" id="boxl1" oninput="cal1()" placeholder="Length">
+                        <input type="text" id="boxw1" oninput="cal1()" placeholder="Width`">
+                        <input type="text" id="boxh1" oninput="cal1()" placeholder="Depth">
+                    </td>
+                    <td>28Lt</td>
+                    <td>Rs:18</td>
+                    <td>Rs:<input type="text" id="res1" placeholder="Cost"></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Size of Septic Tank</td>
+                    <td>
+                        <input type="text" id="boxl2" oninput="cal2()" placeholder="Length">
+                        <input type="text" id="boxw2" oninput="cal2()" placeholder="Width`">
+                        <input type="text" id="boxh2" oninput="cal2()" placeholder="Depth">
+                    </td>
+                    <td>0Lt</td>
+                    <td>Rs:18</td>
+                    <td><input type="text" id="res2" placeholder="Cost"></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Plain Compund Wall</td>
+                    <td>
+                        <input type="text" id="boxl3" oninput="cal3()" placeholder="Length">
+                        <input type="text" id="boxh3" oninput="cal3()" placeholder="Height">
+                        
+                    </td>
+                    <td>Sqft</td>
+                    <td>Rs:1000</td>
+                    <td><input type="text" id="res3" placeholder="Cost"></td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Total</td>
+                    <td>
+                    </td>
+                    <td>   
+                    </td>
+                    <td></td>
+                    <td>Rs:</td>
+                    <td><input type="text" id="total" placeholder="Cost"></td>
+                </tr>
+
+                </table>
+
+
+                <script>
+                    let myResult
+                    let length1,width1,height1,res,res1,res2,res3
+                    let length2,width2,height2,res4,res5,res6,res7
+                    let length3,width3,res8,res9
+                    
+
+                    function calculate() {
+		                var myBox1 = document.getElementById('box1').value;	
+                        console.log(myBox1)
+                        myResult = myBox1 * 2250;
+                        console.log('result',myResult)
+                        document.getElementById('box2').value=myResult;	
+                        finalTotal()
+
+	                    }
+
+                        function cal1() {
+		                length1 = document.getElementById('boxl1').value;	
+                        width1 = document.getElementById('boxw1').value;	
+                        heigth1 = document.getElementById('boxh1').value;	
+                        res=length1*width1*heigth1
+                        console.log('res',res)
+                        res1=res/35.315
+                        console.log('res1',res1)
+                        res2=res1*1000
+                        console.log('res2',res2)
+                        res3=res2*18
+                        console.log('res3',res3)
+                        document.getElementById('res1').value=res3;	
+                        finalTotal()
+	                    }
+
+                        function cal2() {
+		                var length2 = document.getElementById('boxl2').value;	
+                        var width2 = document.getElementById('boxw2').value;	
+                        var heigth2 = document.getElementById('boxh2').value;	
+                        res4=length2*width2*heigth2
+                        console.log('res',res4)
+                        res5=res/35.315
+                        console.log('res1',res5)
+                        res6=res1*1000
+                        console.log('res2',res6)
+                        res7=res2*18
+                        console.log('res3',res7)
+                        document.getElementById('res2').value=res7;	
+                        finalTotal()
+	                    }
+
+                        let finalTotal=()=>{        
+                            console.log('final total')
+                            console.log('myresult',myResult)
+                            console.log('res3',res3)
+                            console.log('res7',res7)
+                            if (res3 !=undefined & res7!=undefined & myResult!=undefined & res9!=undefined){
+                                let finalTotal=myResult+res3+res7+res9
+                                document.getElementById('total').value=finalTotal;	
+                                console.log(finalTotal)
+                            }
+                        }
+
+                        let cal3=()=>{
+                            var length3=document.getElementById('boxl3').value
+                            var width3=document.getElementById('boxh3').value
+                            res8=length3*width3
+                            res9=res8*1000
+                            document.getElementById('res3').value=res9;	
+                            finalTotal()
+                        }
+     
+                </script>
+        </body>
+    
+</html>
